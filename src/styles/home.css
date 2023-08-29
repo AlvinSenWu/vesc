@@ -1,0 +1,44 @@
+.home-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    font-size: 5rem;
+    margin-bottom: 10rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.home-row {
+    display: flex;
+    /* height: 20vh; */
+}
+
+.img-container,
+.text-container{
+    height: 50vh;
+    width: 100%;
+}
+
+.img-container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    /* why doesnt this align center but instead breaks? */
+    /* align-items: center; */
+}
+
+.home-img{
+    object-fit: fill;
+    border-radius: 1.5rem;
+}
+
+
+.home-text{
+    font-size: 2.7rem;
+    margin-right: 5rem;
+    padding-top: 2.5rem;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
